@@ -1,0 +1,11 @@
+[Unit]
+Description=Check GitHub runner cleanup every five minutes when idle
+
+[Timer]
+OnBootSec=2min
+OnUnitInactiveSec=5min
+AccuracySec=10s
+Unit=github-runner-cleanup.service
+
+[Install]
+WantedBy=timers.target

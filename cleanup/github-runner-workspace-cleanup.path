@@ -1,0 +1,10 @@
+[Unit]
+Description=Run workspace cleanup when a GitHub completion hook requests it
+
+[Path]
+DirectoryNotEmpty=/var/lib/github-runner-cleanup/1000/requests
+DirectoryNotEmpty=/var/lib/github-runner-cleanup/1001/requests
+Unit=github-runner-workspace-cleanup.service
+
+[Install]
+WantedBy=multi-user.target

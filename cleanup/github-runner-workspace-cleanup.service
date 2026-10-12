@@ -1,0 +1,14 @@
+[Unit]
+Description=Clean completed GitHub job workspaces, including root-owned build files
+After=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/libexec/github-runner-cleanup/cleanup.py requests
+ExecStopPost=/usr/bin/python3 /usr/local/libexec/github-runner-cleanup/cleanup.py resume requests
+TimeoutStartSec=45
+TimeoutStopSec=10
+KillMode=control-group
+Nice=10
+IOSchedulingClass=idle
+UMask=0022

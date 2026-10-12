@@ -1,0 +1,15 @@
+[Unit]
+Description=GitHub runner idle workspace and cache retention
+After=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/libexec/github-runner-cleanup/cleanup.py maintain
+ExecStopPost=/usr/bin/python3 /usr/local/libexec/github-runner-cleanup/cleanup.py resume maintenance
+ExecStopPost=/usr/bin/python3 /usr/local/libexec/github-runner-cleanup/cleanup.py recover-activation
+TimeoutStartSec=35min
+TimeoutStopSec=10
+KillMode=control-group
+Nice=10
+IOSchedulingClass=idle
+UMask=0022

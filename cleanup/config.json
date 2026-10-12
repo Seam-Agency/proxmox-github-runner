@@ -1,0 +1,126 @@
+{
+  "runners": [
+    {
+      "name": "unregistered-01",
+      "uid": 1000,
+      "gid": 1000,
+      "home": "/home/runner",
+      "root": "/opt/actions-runner",
+      "service": "actions.runner.unregistered-01.service"
+    },
+    {
+      "name": "unregistered-02",
+      "uid": 1001,
+      "gid": 1001,
+      "home": "/home/runner02",
+      "root": "/opt/actions-runner-02",
+      "service": "actions.runner.unregistered-02.service"
+    }
+  ],
+  "home_caches": [
+    [
+      ".cache/go-build",
+      2048,
+      7,
+      1
+    ],
+    [
+      "go/pkg/mod",
+      2048,
+      7,
+      3
+    ],
+    [
+      ".cache/pip",
+      512,
+      7,
+      2
+    ],
+    [
+      ".cache/uv",
+      512,
+      7,
+      2
+    ],
+    [
+      ".npm",
+      512,
+      7,
+      2
+    ],
+    [
+      ".cargo/registry",
+      1024,
+      7,
+      3
+    ],
+    [
+      ".local/share/pnpm/store",
+      2048,
+      7,
+      2
+    ],
+    [
+      ".cache/yarn",
+      1024,
+      7,
+      2
+    ],
+    [
+      ".cache/node/corepack",
+      512,
+      30,
+      3
+    ],
+    [
+      ".bun/install/cache",
+      1024,
+      7,
+      2
+    ],
+    [
+      ".cache/trivy",
+      1024,
+      7,
+      2
+    ],
+    [
+      ".cache/buf",
+      512,
+      7,
+      2
+    ],
+    [
+      ".cache/helm",
+      256,
+      7,
+      2
+    ],
+    [
+      ".cargo/git",
+      1024,
+      7,
+      3
+    ]
+  ],
+  "work_caches": [
+    [
+      "_actions",
+      512,
+      7,
+      2
+    ],
+    [
+      "_tool",
+      2048,
+      30,
+      4
+    ]
+  ],
+  "cargo_volumes": [],
+  "docker_images_mib": 8192,
+  "docker_build_mib": 2048,
+  "total_cache_mib": 24576,
+  "min_free_mib": 16384,
+  "drain_timeout_seconds": 1800
+}
