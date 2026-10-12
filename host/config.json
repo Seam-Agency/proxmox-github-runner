@@ -1,0 +1,9 @@
+{
+  "source": 100,
+  "target": 9000,
+  "staging_start": 9100,
+  "staging_end": 9199,
+  "export_dir": "/var/lib/vz/template/cache",
+  "minimum_free_gib": 20,
+  "copy_limit_kib": 262144
+}
