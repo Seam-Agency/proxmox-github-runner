@@ -1,0 +1,13 @@
+[Unit]
+Description=Initialize unique keys in a cloned runner LXC
+ConditionPathExists=!/var/lib/github-runner-template/initialized
+After=local-fs.target
+Before=ssh.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/libexec/runner-template/first-boot.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
