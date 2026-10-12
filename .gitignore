@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.tar.zst
+*.partial
+release-assets/
+*.log
+.DS_Store
