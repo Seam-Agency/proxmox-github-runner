@@ -1,0 +1,14 @@
+[Unit]
+Description=Install and verify the GitHub Actions runner toolchain
+After=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/libexec/runner-env-setup/install.py
+ExecStopPost=/usr/bin/python3 /usr/local/libexec/github-runner-cleanup/cleanup.py resume maintenance
+ExecStopPost=/usr/bin/python3 /usr/local/libexec/github-runner-cleanup/cleanup.py recover-activation
+ExecStopPost=/usr/bin/systemctl start github-runner-cleanup.timer
+TimeoutStartSec=45min
+TimeoutStopSec=30
+Nice=5
+UMask=0022

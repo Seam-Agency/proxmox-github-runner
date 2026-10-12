@@ -1,0 +1,313 @@
+{
+  "schema": 1,
+  "generated": "2026-10-12",
+  "platform": "linux-amd64",
+  "artifacts": [
+    {
+      "name": "yq",
+      "version": "v4.54.1",
+      "url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_amd64",
+      "sha256": "8e34fc298390875de416e6a4afcb8cabeceb25d9aa8506c1a2f9353cf702ea5f",
+      "kind": "binary",
+      "binaries": {
+        "yq": null
+      },
+      "bytes": 14168224
+    },
+    {
+      "name": "kustomize",
+      "version": "kustomize/v5.8.3",
+      "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.8.3/kustomize_v5.8.3_linux_amd64.tar.gz",
+      "sha256": "cb9e31198d3f63b44848bd0afc4c8efc56e6cfef9c93a4a39a211940e6decd61",
+      "kind": "tar",
+      "binaries": {
+        "kustomize": "kustomize"
+      },
+      "bytes": 5059714
+    },
+    {
+      "name": "uv",
+      "version": "0.13.0",
+      "url": "https://github.com/astral-sh/uv/releases/download/0.13.0/uv-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "1468ebd5a5541121837c5a2817b9972ba6090fa6caa3d142620850a47fb75154",
+      "kind": "tar",
+      "binaries": {
+        "uv": "uv-x86_64-unknown-linux-gnu/uv",
+        "uvx": "uv-x86_64-unknown-linux-gnu/uvx"
+      },
+      "bytes": 17380567
+    },
+    {
+      "name": "bun",
+      "version": "bun-v1.4.3",
+      "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.4.3/bun-linux-x64.zip",
+      "sha256": "3e730528d89775f03f87f05c06787c4df4099d0a37f3f252e7b829cb23816e18",
+      "kind": "zip",
+      "binaries": {
+        "bun": "bun-linux-x64/bun",
+        "bunx": "bun-linux-x64/bun"
+      },
+      "bytes": 42015139
+    },
+    {
+      "name": "actionlint",
+      "version": "v1.7.12",
+      "url": "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz",
+      "sha256": "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8",
+      "kind": "tar",
+      "binaries": {
+        "actionlint": "actionlint"
+      },
+      "bytes": 2353908
+    },
+    {
+      "name": "shfmt",
+      "version": "v3.14.1",
+      "url": "https://github.com/mvdan/sh/releases/download/v3.14.1/shfmt_v3.14.1_linux_amd64",
+      "sha256": "76e77641faa025814b77f153b29796b8e6fa2fca03e0c76a691608b86c7ea7bf",
+      "kind": "binary",
+      "binaries": {
+        "shfmt": null
+      },
+      "bytes": 3571872
+    },
+    {
+      "name": "hadolint",
+      "version": "v2.15.1",
+      "url": "https://github.com/hadolint/hadolint/releases/download/v2.15.1/hadolint-linux-x86_64",
+      "sha256": "c7187db94eeeeca956519a6af171adc31453941a1e777961f6e680f697c8c507",
+      "kind": "binary",
+      "binaries": {
+        "hadolint": null
+      },
+      "bytes": 55661096
+    },
+    {
+      "name": "buf",
+      "version": "v1.73.0",
+      "url": "https://github.com/bufbuild/buf/releases/download/v1.73.0/buf-Linux-x86_64",
+      "sha256": "8f2986298ad08f0cc1bf999b9797b7c383adf32d7edf0f73d6f1e1a701baeac1",
+      "kind": "binary",
+      "binaries": {
+        "buf": null
+      },
+      "bytes": 54550690
+    },
+    {
+      "name": "grpcurl",
+      "version": "v1.9.4",
+      "url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.4/grpcurl_1.9.4_linux_x86_64.tar.gz",
+      "sha256": "97e13d58d2733a0e62cd2571d1d5f0c02823f0d25282f08bddedf1ad9c5d1736",
+      "kind": "tar",
+      "binaries": {
+        "grpcurl": "grpcurl"
+      },
+      "bytes": 9968722
+    },
+    {
+      "name": "sops",
+      "version": "v3.13.3",
+      "url": "https://github.com/getsops/sops/releases/download/v3.13.3/sops-v3.13.3.linux.amd64",
+      "sha256": "e5bec3346a873ae91d871550f3e698c1aad962aff462a080e40f25fde17fef6b",
+      "kind": "binary",
+      "binaries": {
+        "sops": null
+      },
+      "bytes": 52121762
+    },
+    {
+      "name": "argocd",
+      "version": "v3.5.5",
+      "url": "https://github.com/argoproj/argo-cd/releases/download/v3.5.5/argocd-linux-amd64",
+      "sha256": "c3ddfa606fc3e89ab14f55bda6600b207c355b028f8eaabe69b817a4c4621aba",
+      "kind": "binary",
+      "binaries": {
+        "argocd": null
+      },
+      "bytes": 250337675
+    },
+    {
+      "name": "talosctl",
+      "version": "v1.12.12",
+      "url": "https://github.com/siderolabs/talos/releases/download/v1.12.12/talosctl-linux-amd64",
+      "sha256": "3a3ad9fe02df94f8bcfe85a9d982991fbf510a2167fb0e5d1b2c149d6541090e",
+      "kind": "binary",
+      "binaries": {
+        "talosctl": null
+      },
+      "bytes": 98513080
+    },
+    {
+      "name": "pwsh",
+      "version": "v7.6.6",
+      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.6/powershell-7.6.6-linux-x64.tar.gz",
+      "sha256": "ddbc4a2d113bbd46d283cfedcbcd117a70caefd7673f41f2b4e0000badf103bc",
+      "kind": "directory",
+      "binaries": {
+        "pwsh": "pwsh"
+      },
+      "bytes": 75876271
+    },
+    {
+      "name": "trivy",
+      "version": "v0.75.0",
+      "url": "https://github.com/aquasecurity/trivy/releases/download/v0.75.0/trivy_0.75.0_Linux-64bit.tar.gz",
+      "sha256": "c6e65abddb348e25f10549df887045629cf28cc72453cd1c63acb717316b3f3f",
+      "kind": "tar",
+      "binaries": {
+        "trivy": "trivy"
+      },
+      "bytes": 51704231
+    },
+    {
+      "name": "helm",
+      "version": "v3.22.0",
+      "url": "https://get.helm.sh/helm-v3.22.0-linux-amd64.tar.gz",
+      "sha256": "1e4ab49e429626cf6c6958d914248b78c9730803c2751b87627e171dc800e7bb",
+      "kind": "tar",
+      "binaries": {
+        "helm": "linux-amd64/helm"
+      }
+    },
+    {
+      "name": "kubectl",
+      "version": "v1.35.8",
+      "url": "https://dl.k8s.io/release/v1.35.8/bin/linux/amd64/kubectl",
+      "sha256": "874d5e72dbb819f43cff16bcd1e4f8bac5b7f2361fe1e55049b0a6c676fb0cbf",
+      "kind": "binary",
+      "binaries": {
+        "kubectl": null
+      }
+    },
+    {
+      "name": "go",
+      "version": "go1.25.14",
+      "url": "https://go.dev/dl/go1.25.14.linux-amd64.tar.gz",
+      "sha256": "a21ae5633a269bcd7e90cf767e48225633795e99d831742cbf3397064fee7712",
+      "kind": "directory",
+      "binaries": {
+        "go": "go/bin/go",
+        "gofmt": "go/bin/gofmt"
+      }
+    },
+    {
+      "name": "node",
+      "version": "v22.22.2",
+      "url": "https://nodejs.org/dist/v22.22.2/node-v22.22.2-linux-x64.tar.xz",
+      "sha256": "88fd1ce767091fd8d4a99fdb2356e98c819f93f3b1f8663853a2dee9b438068a",
+      "kind": "directory",
+      "binaries": {
+        "node": "node-v22.22.2-linux-x64/bin/node",
+        "npm": "node-v22.22.2-linux-x64/bin/npm",
+        "npx": "node-v22.22.2-linux-x64/bin/npx",
+        "corepack": "node-v22.22.2-linux-x64/bin/corepack"
+      }
+    },
+    {
+      "name": "rust",
+      "version": "1.95.0",
+      "url": "https://static.rust-lang.org/dist/rust-1.95.0-x86_64-unknown-linux-gnu.tar.xz",
+      "sha256": "2e0338f18ecbaa4a0f631b9e80e8b8e26bb6fe77dd5454fba8a70cf96c1e84a1",
+      "kind": "rust-installer",
+      "binaries": {
+        "rustc": "bin/rustc",
+        "rustdoc": "bin/rustdoc",
+        "cargo": "bin/cargo",
+        "rustfmt": "bin/rustfmt",
+        "cargo-fmt": "bin/cargo-fmt",
+        "clippy-driver": "bin/clippy-driver",
+        "cargo-clippy": "bin/cargo-clippy"
+      }
+    }
+  ],
+  "npm_packages": {
+    "corepack": "0.36.0",
+    "pnpm": "12.11.2",
+    "yarn": "1.22.22",
+    "typescript": "7.0.2"
+  },
+  "apt_packages": [
+    "build-essential",
+    "cmake",
+    "ninja-build",
+    "pkg-config",
+    "clang",
+    "libclang-dev",
+    "llvm-dev",
+    "lld",
+    "autoconf",
+    "automake",
+    "libtool",
+    "bison",
+    "flex",
+    "gettext",
+    "python3",
+    "python-is-python3",
+    "python3-dev",
+    "python3-pip",
+    "python3-venv",
+    "python3-yaml",
+    "python3-pytest",
+    "python3-build",
+    "python3-wheel",
+    "python3-setuptools",
+    "pipx",
+    "libssl-dev",
+    "libffi-dev",
+    "libpq-dev",
+    "libsqlite3-dev",
+    "libbz2-dev",
+    "liblzma-dev",
+    "libreadline-dev",
+    "libncurses-dev",
+    "zlib1g-dev",
+    "ca-certificates",
+    "curl",
+    "wget",
+    "git",
+    "git-lfs",
+    "git-filter-repo",
+    "jq",
+    "unzip",
+    "zip",
+    "tar",
+    "xz-utils",
+    "zstd",
+    "bzip2",
+    "p7zip-full",
+    "rsync",
+    "patch",
+    "diffutils",
+    "file",
+    "openssh-client",
+    "gnupg",
+    "dirmngr",
+    "iproute2",
+    "iputils-ping",
+    "dnsutils",
+    "netcat-openbsd",
+    "socat",
+    "lsof",
+    "procps",
+    "ripgrep",
+    "fd-find",
+    "shellcheck",
+    "shfmt",
+    "yamllint",
+    "protobuf-compiler",
+    "gh",
+    "age",
+    "skopeo",
+    "postgresql-client",
+    "redis-tools",
+    "elixir",
+    "erlang-dev",
+    "erlang-tools",
+    "erlang-xmerl",
+    "erlang-parsetools",
+    "erlang-syntax-tools",
+    "locales",
+    "libicu76",
+    "libunwind8"
+  ]
+}
